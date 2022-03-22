@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" target-densitydpi=medium-dpi>
+    <title>Centre Nautique : La Cantache - Inscription</title>
+</head>
+<header>
+    <title>Menu bandeau fixe en bas en CSS et HTML</title>
+    <ul class="menu">
+        <li>
+            <a href="index.html">Accueil</a>
+        </li>
+        <li>
+            <a href="activitée.html">Activitées</a>
+        </li>
+        <li>
+            <a href="inscription.html">Inscription</a>
+        </li>
+    </ul>
+</header>
+
+<div class="container">
+    <img src="barrage.jpg" alt="Photo du lac de la Cantache" width="1249" height="420">
+    <div class="text">
+        <br>
+        <p class="titre"> CENTRE NAUTIQUE</p>
+        <p class="titre"> La Cantache</p>
+    </div>
+        <br>
+</div>
+<br>
+<br>
+<form action="donnees.php" method="post" name="formulaire">
+
+    
+    <fieldset>
+        <legend> Formulaire inscription : </legend>
+      <label for="utilise">Quelles activitées souhaitez-vous pratiquer ? : </label>
+       <select name="utilise" id="utilise">
+       <option value="kayak"> kayak</option>
+       <option value="paddle"> paddle</option>
+       <option value="voile"> voile</option>
+       <option value="catamaran">catamaran</option>
+       <option value="formation BPJEPS AAN">formation BPJEPS AAN</option>
+       <option value="Flyboard">Flyboard</option>
+       <option value="pêche">pêche</option>
+       </select>
+    
+    </fieldset>
+    
+    <fieldset>
+     <legend>Vos coordonnées :</legend>
+
+      <label for="email">Nom :</label>
+       <input type="name" name="nom" size="20" 
+       maxlength="40" placeholder="Ex : Égérie" id="name"/>
+
+       <label for="email">Prénom :</label>
+       <input type="name" name="prénom" size="20" 
+       maxlength="40" placeholder="Ex : Tom " id="name" />
+
+       <label for="email">Votre email :</label>
+       <input type="email" name="email" size="20" 
+       maxlength="40" placeholder="Ex : tomégérie@orange.fr" id="email"  />
+
+       <label for="email"> Numéro de téléphone :</label>
+       <input type="tel" name="téléphone" size="20" 
+       maxlength="10" placeholder="Ex : 0765324536" id="numéro"  />
+       
+    
+      <label for="comments">Vos commentaires :</label>
+       <textarea name="comments" id="comments" cols="20" rows="4">
+       </textarea>
+    </fieldset>
+    
+     <p>
+     <input type="submit" value="Envoyer" />
+     <input type="reset" value="Annuler" />
+     </p>
+    
+    </form action="donnees.php" >
+
+    
+    <div id="PageCentrale">
+        <div id="Bande-BasPage" class="ParamOpaciteBas" >Site Web dans le but d'un projet de fin d'année TSTI2D</div>
+    </div>
+        <br>
+        <br>
+<body>
+
+
+
+    

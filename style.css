@@ -1,0 +1,326 @@
+@media all and (min-width: 1001px){
+    h3{
+        font-size: 1.1em;    
+    }
+    body{
+        background-color: rgb(204, 196, 196);
+    }
+
+    /*-------------------------------menu------------------------------*/
+    .menu{
+        display: flex;
+        padding: 0;
+    }
+    .menu li{
+        list-style-type: none;
+    }
+    .menu a{
+        display: block;
+        min-width: 28em;
+        margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
+        padding: 0.4rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+        text-align: center;           /* Centrage du texte */   
+        background-color: #1ABC9C;    /* Couleur d'arrière-plan */
+        color: #fff;                  /* Couleur du texte */
+        text-decoration: none;        /* Suppression du soulignement */
+        border: 1px solid #fff;       /* Ajout d'une bordure */
+        border-radius: 4px;           /* Arrondis des bordures */
+    }
+    .menu a:hover {
+        background-color: #131212;
+        color: #fff;
+        border-color: #fff;
+        transition: all 1s ;
+    }
+    /*-------------------------------fin menu------------------------------*/
+
+    /*-------------------------------image arrière-plan------------------------------*/
+    .container {
+        display: inline-block;
+        position: relative;
+    }
+    .container .text {
+        background: rgba(0, 0, 0, 0.8);
+        z-index: 1;
+        position: absolute;
+        text-align: center;
+        font-family: Georgia;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 30%;
+        color: white;
+        width: 60%;
+        
+    }
+    .titre{
+        font-size: 1.5em;
+        text-decoration: underline;  
+    }
+    /*-------------------------------fin image------------------------------*/
+
+    /*-------------------------------mise en forme accueil------------------------------*/
+        .wrap {
+            border: 0;
+            padding: 0;
+            margin: 0;
+            font-family: 'ralewayregular',Arial,Verdana,sans-serif;
+            font-weight: normal;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: justify;
+        }
+        .left{
+            border: 0;
+            padding: 0;
+            margin: 0;
+            font-family: 'ralewayregular',Arial,Verdana,sans-serif;
+            font-weight: normal;
+            float: left;
+            margin: 0 110px 0 0;
+            width: 330px;
+        }
+        .infos{
+            border: 0;
+            padding: 0;
+            margin: 0;
+            font-family:  'Raleway', sans-serif;
+            font-weight: normal;
+            padding: 13px 0 0 0;
+            margin: 0 0 34px 0;
+            min-height: 47px;
+        
+        }
+        .titre_info{
+            color: #262728;
+            font-size: 2.2em;
+            line-height: 1em;
+            margin: 0 0 0 0;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            font-family: 'Raleway', sans-serif;
+            font-weight: normal;
+            text-decoration: underline;
+            
+            
+        }
+        .right{
+            border: 0;
+            padding: 0;
+            margin: 0;
+            font-family: 'ralewayregular',Arial,Verdana,sans-serif;
+            font-weight: normal;
+            float: right;
+            width: 706px;
+        }
+    /*------------------------------- fin mise en forme accueil------------------------------*/
+
+    /*------------------------------- mise en forme carte------------------------------*/
+        .loca{
+            color: #000000;
+            font-size: 2.2em;
+            line-height: 1em;
+            margin: 50px 0 0 0;
+            border: 0;
+
+            font-family: 'Raleway', sans-serif;
+            font-weight: normal;
+            text-decoration: underline;
+            text-align: center;
+            background-color: whitesmoke;
+        }
+        .map{
+            text-align: center;
+            border: none; 
+            background-color: whitesmoke;
+        }
+    /*------------------------------- fin mise en forme carte------------------------------*/
+    
+    /*------------------------------- info complémentaire------------------------------*/
+        .info_comple{
+            text-align: center;
+            font-size: 2.2em; 
+            text-decoration: underline;
+        }
+        .gros_titre{
+            text-align: left;
+            font-size: 2em;
+            font-family: 'Raleway', sans-serif;
+        }
+        .info_sup{
+            font-size: 1.3em;
+            font-family: 'Raleway', sans-serif;
+        }
+        .info_supp{
+            margin: 0 80px 0;
+            text-align: justify;
+        }
+    /*------------------------------- fin info complémentaire------------------------------*/
+
+
+
+    /*-------------------------------inscription------------------------------*/
+    body {
+        font-family:"trebuchet ms",sans-serif;
+        font-size:90%;
+        }
+    form {
+        background-color:#FAFAFA;
+        padding:10px;
+        width:1230px;
+        }
+    fieldset {
+        padding:0 20px 20px 20px;
+        margin-bottom:10px;
+        border:1px solid #1ABC9C;
+        }
+    legend {
+        color:#1ABC9C;
+        font-weight:bold
+        }
+    label {
+        margin-top:10px;
+        display:block;
+        }
+    label.inline {
+        display:inline;
+        margin-right:50px;
+        }
+    input, textarea, select, option {
+        background-color:#FFF3F3;
+        }
+    input, textarea, select {
+        padding:3px;
+        border:1px solid #F5C5C5;
+        border-radius:5px;
+        width:200px;
+        box-shadow:1px 1px 2px #C0C0C0 inset;
+        }
+    select {
+        margin-top:10px;
+        }
+    input[type=radio] {
+        background-color:transparent;
+        border:none;
+        width:10px;
+        }
+    input[type=submit], input[type=reset] {
+        width:100px;
+        margin-left:5px;
+        box-shadow:1px 1px 1px #1ABC9C ;
+        cursor:pointer;
+        }
+    form{
+        text-align: center;
+    }
+    select{
+        text-align: center;
+    }
+    input{
+        text-align: center;
+    }
+    form{
+        text-align: center;
+    }
+    /*------------------------------- fin inscription------------------------------*/
+
+    /*------------------------------- page activitée ------------------------------*/
+    .act{
+        font-size: 1.1em; 
+    }
+    /*------------------------------- fin page activitée ------------------------------*/
+
+    /*------------------------------- tableau activitée ------------------------------*/
+    table {
+        table-layout: fixed;
+        width: 100%;
+        border-collapse: collapse;
+        border: 3px solid #1ABC9C;
+    }
+    
+    thead th:nth-child(1) {
+        width: 10%;
+    }
+    
+    thead th:nth-child(2) {
+        width: 10%;
+    }
+    
+    thead th:nth-child(3) {
+        width: 10%;
+    }
+    
+    thead th:nth-child(4) {
+        width: 10%;
+    }
+    
+    th, td {
+        padding: 50px;
+    }
+    td{
+        text-align: center;
+        background-color: #C0C0C0;
+    }
+    .sport{
+        font-weight: bold;
+    }
+    th{
+        background-color: #1ABC9C;
+    }
+    /*------------------------------- fin tableau activitée ------------------------------*/
+
+
+    .rando{
+        margin: 0 80px 0;
+        text-align: center;
+        font-size: 2.3em;
+    }
+    .table{
+        margin: 0 80px 0;
+    }
+    .parcours
+    {
+        text-align: center;
+    }
+
+    /******************************Barre bas page*******************************/
+
+    html {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        }
+        
+        body {
+        margin: 0px;
+        padding: 0px;
+        }
+        title{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+        }    
+        #PageCentrale {
+        margin-left: auto;
+        margin-right: auto;
+        }   
+        #Bande-BasPage {
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 32px;
+        /* z-index: 999;*/
+        padding-top: 10px; /*décalage du texte vers le bas*/
+        text-align: center;
+        text-indent: 0px; /*décalage du texte vers la droite*/
+        font-size: 18px;
+        color: #FFFFFF;
+        background-color: #1ABC9C;
+        }    
+    /******************************Fin barre bas page****************************/
+}
+@media all and (max-width: 1000px){
