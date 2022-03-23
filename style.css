@@ -449,7 +449,7 @@
         }
         .titre_info{
             color: #262728;
-            font-size: 2.2em;
+            font-size: 1.4em;
             line-height: 1em;
             margin: 0 0 0 0;
             border: 0;
@@ -502,7 +502,7 @@
         }
         .gros_titre{
             text-align: left;
-            font-size: 2em;
+            font-size: 1.5em;
             font-family: 'Raleway', sans-serif;
         }
         .info_sup{
