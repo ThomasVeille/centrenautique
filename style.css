@@ -357,8 +357,8 @@
     .menu a{
         display: block;
         min-width: 6.2em;
-        margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
-        padding: 0.9rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
+        margin: 0.9rem;               /* Marges externes (1 valeurs = 4 directions) */
+        padding: 0.8rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
         text-align: center;           /* Centrage du texte */   
         background-color: #1ABC9C;    /* Couleur d'arrière-plan */
         color: #fff;                  /* Couleur du texte */
