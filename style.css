@@ -50,12 +50,15 @@
         right: 0;
         top: 30%;
         color: white;
-        width: 60%;
-        
+        width: 60%;   
     }
     .titre{
         font-size: 1.5em;
         text-decoration: underline;  
+    }
+    .lac{
+        width: 1249px;
+        height: 1420px;
     }
     /*-------------------------------fin image------------------------------*/
 
