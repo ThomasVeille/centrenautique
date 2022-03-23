@@ -273,6 +273,8 @@
     
     th, td {
         padding: 50px;
+        border: #1ABC9C 10px;
+        font-size: 1.1em;
     }
     td{
         text-align: center;
@@ -613,7 +615,8 @@
     }
     
     th, td {
-        padding: 16px 45px 12px 20px; 
+        padding: 16px 45px 12px 10px; 
+        font-size: 0.6em;
     }
     td{
         text-align: center;
