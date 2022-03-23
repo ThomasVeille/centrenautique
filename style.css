@@ -56,9 +56,21 @@
         font-size: 1.5em;
         text-decoration: underline;  
     }
-    .lac{
-        width: 1249px;
-        height: 1420px;
+    .imglac{
+        width: 100vw;
+        height: 30vw;
+    }
+    .imgicone{
+        width: 4vw;
+        height: 4vw;
+    }
+    .imgloca{
+        width: 10vw;
+        height: 10vw;
+    }
+    .carte{
+        width: 90vw;
+        height: 35vw;
     }
     /*-------------------------------fin image------------------------------*/
 
@@ -344,8 +356,8 @@
     }
     .menu a{
         display: block;
-        min-width: 6em;
-        margin: 0.6rem;               /* Marges externes (1 valeurs = 4 directions) */
+        min-width: 6.2em;
+        margin: 0.5rem;               /* Marges externes (1 valeurs = 4 directions) */
         padding: 0.9rem 0;            /* Marges internes (2 valeurs = haut/bas et gauche/droite)*/
         text-align: center;           /* Centrage du texte */   
         background-color: #1ABC9C;    /* Couleur d'arrière-plan */
@@ -378,12 +390,27 @@
         right: 0;
         top: 30%;
         color: white;
-        width: 60%;
-        
+        width: 60%;   
     }
     .titre{
-        font-size: 0.5em;
+        font-size: 1em;
         text-decoration: underline;  
+    }
+    .imglac{
+        width: 100vw;
+        height: 80vw;
+    }
+    .imgicone{
+        width: 4vw;
+        height: 4vw;
+    }
+    .imgloca{
+        width: 10vw;
+        height: 10vw;
+    }
+    .carte{
+        width: 90vw;
+        height: 35vw;
     }
     /*-------------------------------fin image------------------------------*/
 
@@ -648,4 +675,4 @@
         font-size: 18px;
         color: #FFFFFF;
         background-color: #1ABC9C;
-        }    
+        }
