@@ -527,7 +527,7 @@
     form {
         background-color:#FAFAFA;
         padding:10px;
-        width:1230px;
+        width:340px;
         }
     fieldset {
         padding:0 20px 20px 20px;
@@ -680,7 +680,7 @@
         padding-top: 10px; /*décalage du texte vers le bas*/
         text-align: center;
         text-indent: 0px; /*décalage du texte vers la droite*/
-        font-size: 18px;
+        font-size: 14px;
         color: #FFFFFF;
         background-color: #1ABC9C;
         }
