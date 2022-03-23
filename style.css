@@ -497,7 +497,7 @@
     /*------------------------------- info complémentaire------------------------------*/
         .info_comple{
             text-align: center;
-            font-size: 2.2em; 
+            font-size: 1.2em; 
             text-decoration: underline;
         }
         .gros_titre{
@@ -506,7 +506,7 @@
             font-family: 'Raleway', sans-serif;
         }
         .info_sup{
-            font-size: 1.3em;
+            font-size: 0.7em;
             font-family: 'Raleway', sans-serif;
         }
         .info_supp{
